@@ -12,7 +12,7 @@
 
 > Zombie Survival é um formulário básico de registro para um bunker. Desenvolvido com Next.js, Javascript, Material-UI. Salve-se do Apocalipse.
 
-### ❤️‍🩹 Ajustes e melhorias
+### 🖤 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
