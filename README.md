@@ -7,7 +7,8 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/danielafarias/Zombie-Survival?style=for-the-badge)
 ![Github Watchers](https://img.shields.io/github/watchers/danielafarias/Zombie-Survival?style=for-the-badge)
 
-![Zombie-Survival]()
+![Zombie-Survival](https://user-images.githubusercontent.com/79869120/130368541-6cb2e21b-aaa6-4c48-8b8a-90eeda5deca4.png)
+
 
 > Zombie Survival é um formulário básico de registro para um bunker. Desenvolvido com Next.js, Javascript, Material-UI. Salve-se do Apocalipse.
 
