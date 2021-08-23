@@ -65,6 +65,14 @@ Em seguida, adicione as bibliotecas e dependências necessárias:
 <yarn add @material-ui/core>
 ```
 
+```
+<yarn add @material-ui/lab>
+```
+
+```
+<yarn add @material-ui/icons>
+```
+
 ## 🧟 Usando <Zombie-Survival>
 
 Para usar <Zombie-Survival>:
