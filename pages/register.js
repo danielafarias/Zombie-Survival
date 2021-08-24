@@ -199,6 +199,9 @@ export default function Register() {
 
   return (
     <div>
+      <head>
+        <title>Zombie Survival</title>
+      </head>
       <Header title="There is still time to register" />
 
       <br />

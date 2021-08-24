@@ -18,6 +18,9 @@ export default function Home() {
 
   return (
     <div>
+      <head>
+        <title>Zombie Survival</title>
+      </head>
       <Header title="Welcome to apocalypse survival!" />
       <Grid container justifyContent="center" alignItems="center">
         <Grid item xs={12}>

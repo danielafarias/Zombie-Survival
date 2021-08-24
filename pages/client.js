@@ -14,6 +14,9 @@ export default function Client() {
 
   return (
     <div>
+      <head>
+        <title>Zombie Survival</title>
+      </head>
       <Header title="Your future neighbors" />
 
       <br />
