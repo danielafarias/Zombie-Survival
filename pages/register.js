@@ -12,6 +12,7 @@ import {
 import Header from "../components/Header";
 import { register } from "../api/Api";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Register() {
   // Step 1
@@ -199,9 +200,10 @@ export default function Register() {
 
   return (
     <div>
-      <head>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>Zombie Survival</title>
-      </head>
+      </Head>
       <Header title="There is still time to register" />
 
       <br />

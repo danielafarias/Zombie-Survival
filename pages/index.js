@@ -1,9 +1,8 @@
 import styles from "../styles/Home.module.css";
 import { Grid } from "@material-ui/core";
-import MenuBar from "../components/MenuBar";
 import Header from "../components/Header";
+import Head from "next/head";
 import React from "react";
-import LinearProgress from "@material-ui/core/LinearProgress";
 
 export default function Home() {
   const [apocalypseTimer, setApocalypseTimer] = React.useState(999999999);
@@ -18,9 +17,10 @@ export default function Home() {
 
   return (
     <div>
-      <head>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>Zombie Survival</title>
-      </head>
+      </Head>
       <Header title="Welcome to apocalypse survival!" />
       <Grid container justifyContent="center" alignItems="center">
         <Grid item xs={12}>

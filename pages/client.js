@@ -2,6 +2,7 @@ import ClientList from "../components/ClientList";
 import Header from "../components/Header";
 import { Typography } from "@material-ui/core";
 import { getClients } from "../api/Api";
+import Head from "next/head";
 import React from "react";
 
 export default function Client() {
@@ -14,9 +15,10 @@ export default function Client() {
 
   return (
     <div>
-      <head>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <title>Zombie Survival</title>
-      </head>
+      </Head>
       <Header title="Your future neighbors" />
 
       <br />
