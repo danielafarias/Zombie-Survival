@@ -10,7 +10,7 @@
 ![Zombie-Survival](https://user-images.githubusercontent.com/79869120/130368541-6cb2e21b-aaa6-4c48-8b8a-90eeda5deca4.png)
 
 
-> Zombie Survival é um formulário básico de registro para um bunker. Desenvolvido com Next.js, Javascript, Material-UI. Salve-se do Apocalipse.
+> Zombie Survival é um formulário básico de registro para um bunker. Desenvolvido com Next.js, Javascript, Material-UI e Axios. Salve-se do Apocalipse.
 
 ### 🖤 Ajustes e melhorias
 
@@ -66,11 +66,10 @@ Em seguida, adicione as bibliotecas e dependências necessárias:
 ```
 
 ```
-<yarn add @material-ui/lab>
-```
-
-```
 <yarn add @material-ui/icons>
+```
+```
+<yarn add axios>
 ```
 
 ## 🧟 Usando <Zombie-Survival>

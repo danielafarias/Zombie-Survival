@@ -48,7 +48,7 @@ header.MuiAppBar-root {
 }
 
 div.MuiFormControl-root {
-  margin-top: 1rem;
+  margin: 0.5rem;
 }
 
 input.MuiInputBase-input {
@@ -64,4 +64,42 @@ div.MuiLinearProgress-barColorPrimary {
   background-color: #7F184C;
 }
 
+div.MuiPaper-root {
+  background-color: #212121;
+}
 
+svg.MuiStepIcon-root.MuiStepIcon-active {
+  color: #7F184C;
+}
+
+svg.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #7F184C;
+}
+
+button.MuiButton-containedPrimary {
+  background-color: #7F184C;
+}
+
+button.MuiButton-containedPrimary:hover {
+  background-color: #8BC673;
+}
+
+span.MuiStepLabel-label.MuiStepLabel-active {
+  color: #E0E0E0;
+}
+
+span.MuiStepLabel-label.MuiStepLabel-completed {
+  color: #E0E0E0;
+}
+
+p.MuiTypography-body1 {
+  color: #E0E0E0;
+}
+
+span.MuiStepLabel-label {
+  color: #E0E0E0;
+}
+
+span.MuiButton-label {
+  color: #E0E0E0;
+}
