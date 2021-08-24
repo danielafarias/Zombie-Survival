@@ -31,9 +31,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você adicionou as seguintes bibliotecas  `<Material-UI>`.
 * Você leu o `<passo_a_passo_de_intalação_do_projeto>`.
 
-## 🌖 Instalando <Zombie-Survival>
+## 🌖 Instalando Zombie Survival
 
-Para instalar o <Zombie-Survival>, siga estas etapas:
+Para instalar o Zombie Survival, siga estas etapas:
 
 Caso não possua o Yarn, instale o Node.js em seu site oficial:
 
@@ -72,9 +72,9 @@ Em seguida, adicione as bibliotecas e dependências necessárias:
 <yarn add axios>
 ```
 
-## 🧟 Usando <Zombie-Survival>
+## 🧟 Usando Zombie Survival
 
-Para usar <Zombie-Survival>:
+Para usar Zombie Survival:
 
 ```
 <yarn dev>
@@ -85,9 +85,9 @@ Voilà!
 [http://localhost:3000](http://localhost:3000)
 
 
-## 🏚 Contribuindo para <Zombie-Survival>
+## 🏚 Contribuindo para Zombie Survival
 
-Para contribuir com <Zombie-Survival>, siga estas etapas:
+Para contribuir com Zombie Survival, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <zombie_seu_nome>`.
