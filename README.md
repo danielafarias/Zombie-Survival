@@ -18,10 +18,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Projeto inicializado
 - [x] Protótipo no [Figma](https://www.figma.com/proto/Pflmgthb5P4Vk4ccpodY50/Zombie-Survival?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3)
-- [ ] Views
-- [ ] Componentes e eventos
-- [ ] Criação de requests
-- [ ] Projeto Finalizado
+- [x] Views
+- [x] Componentes e eventos
+- [x] Criação de requests
+- [x] Projeto Finalizado
 
 ## 💀 Pré-requisitos
 
