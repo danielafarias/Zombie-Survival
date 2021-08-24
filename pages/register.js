@@ -224,7 +224,7 @@ export default function Register() {
                     {activeStep === steps.length && (
                         <Paper square elevation={0}>
                             <Typography>
-                                Done - We'll send you an email or SMS when the 
+                                Done - We will send you an email or SMS when the 
                                 apocalypse comes around with the address of your 
                                 bunker, so stay tuned!
                             </Typography>
