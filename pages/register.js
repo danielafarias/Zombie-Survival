@@ -105,7 +105,7 @@ export default function Register() {
                         />
                     </div>
           case 2:
-            return <div>
+            return <>
                         <TextField
                             required
                             color="secondary"
@@ -137,7 +137,7 @@ export default function Register() {
                             variant='filled'
                             onChange={(e) => setIncome(e.target.value)} 
                         />
-                    </div>
+                    </>
           default:
             return 'Unknown step';
         }
@@ -166,7 +166,7 @@ export default function Register() {
         try {
 
             await register(name, lastname, email, number, zip, address1, address2, birthday, CPF, income)
-            router.push('/');
+            router.push('/client');
 
         } catch (err) {
 
@@ -179,8 +179,9 @@ export default function Register() {
 
     return (
         <div>
-            <Header />
-
+            
+            <Header title='There is still time to register'/>
+            
                 <br />
 
             <Typography variant='h5'>

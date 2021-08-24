@@ -10,6 +10,8 @@ import {
 import MenuIcon from '@material-ui/icons/Menu';
 import PeopleIcon from '@material-ui/icons/People';
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import { withStyles } from '@material-ui/core/styles';
 import React from 'react';
 
@@ -48,7 +50,7 @@ const StyledMenuItem = withStyles((theme) => ({
 }))(MenuItem);
 
   
-export default function MenuBar() {
+export default function MenuBar(props) {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -70,7 +72,7 @@ export default function MenuBar() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit">
-              Bunker Register
+              {props.title}
             </Typography>
           </Toolbar>
         </AppBar>
@@ -92,12 +94,30 @@ export default function MenuBar() {
           </StyledMenuItem>
         </a>
 
-        <a href='/clients'>
+        <a href='/client'>
           <StyledMenuItem>
             <ListItemIcon>
               <PeopleIcon/>
             </ListItemIcon>
             <ListItemText primary="Clients" />
+          </StyledMenuItem>
+        </a>
+
+        <a href='https://github.com/danielafarias/Zombie-Survival' target='_blank' rel='noreferrer'>
+          <StyledMenuItem>
+            <ListItemIcon>
+              <GitHubIcon/>
+            </ListItemIcon>
+            <ListItemText primary="Github" />
+          </StyledMenuItem>
+        </a>
+
+        <a href='https://www.svgrepo.com/' target='_blank' rel='noreferrer'>
+          <StyledMenuItem>
+            <ListItemIcon>
+              <FavoriteBorderIcon/>
+            </ListItemIcon>
+            <ListItemText primary="SVG by" />
           </StyledMenuItem>
         </a>
 

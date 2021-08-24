@@ -12,25 +12,25 @@ export default function Home() {
   const decreaseTimer = () => setApocalypseTimer((prev) => prev - 1);
 
   React.useEffect(() => {
-        intervalRef.current = setInterval(decreaseTimer, 1000); 
+        intervalRef.current = setInterval(decreaseTimer, 100); 
         return () => clearInterval(intervalRef.current);
     }, []);
 
   return (
       <div>
-        <Header />
+        <Header title='Welcome to apocalypse survival!'/>
         <Grid container justifyContent='center' alignItems='center'>
-          <Grid item>
+          <Grid item xs={12}>
             <div className={styles.card}>
               <h3>{apocalypseTimer}</h3>
-              <h3>to end of the world, <br/> Rent a bunker!</h3>
+              <h3>to the end of the world, <br/> Rent a bunker!</h3>
             </div>
-            <LinearProgress color="secondary" />
+          </Grid>
+        <br />
+          <Grid item>
+            <img src='https://i.pinimg.com/originals/9e/c6/ba/9ec6ba018d919bd20fc8715cddeb66e0.gif' alt='Zombie Running'/>  
           </Grid>
         </Grid>
-        <br />
-        <img className={styles.zombieHandImg} src='images/zombie-hand.svg' alt='Zombie Hand'/>
-        
       </div>
   )
 }
