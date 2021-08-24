@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #212121;
 }
 
@@ -20,16 +20,16 @@ a {
 }
 
 h1 {
-  font-family: 'Creepster', cursive;
+  font-family: "Creepster", cursive;
   font-size: 50px;
-  color: #B5E589;
+  color: #b5e589;
   -webkit-text-stroke-color: #000000;
   -webkit-text-stroke-width: 4px;
 }
 
 h3 {
-  font-family: 'Press Start 2P', cursive;
-  color: #E0E0E0;
+  font-family: "Press Start 2P", cursive;
+  color: #e0e0e0;
   -webkit-text-stroke-color: #000000;
   -webkit-text-stroke-width: 1.5px;
   text-align: center;
@@ -37,11 +37,11 @@ h3 {
 
 h5 {
   text-align: center;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 header.MuiAppBar-root {
-  background-color: #8BC673;
+  background-color: #8bc673;
   color: #000000;
 }
 
@@ -50,20 +50,20 @@ div.MuiFormControl-root {
 }
 
 input.MuiInputBase-input {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 ul.MuiList-root {
-  background-color: #8BC673;
+  background-color: #8bc673;
 }
 
 div.MuiMobileStepper-root {
-  background-color: #8BC673;
+  background-color: #8bc673;
   margin-top: 1rem;
 }
 
 div.MuiLinearProgress-barColorPrimary {
-  background-color: #7F184C;
+  background-color: #7f184c;
 }
 
 div.MuiPaper-root {
@@ -71,41 +71,41 @@ div.MuiPaper-root {
 }
 
 svg.MuiStepIcon-root.MuiStepIcon-active {
-  color: #7F184C;
+  color: #7f184c;
 }
 
 svg.MuiStepIcon-root.MuiStepIcon-completed {
-  color: #7F184C;
+  color: #7f184c;
 }
 
 button.MuiButton-containedPrimary {
-  background-color: #7F184C;
+  background-color: #7f184c;
 }
 
 button.MuiButton-containedPrimary:hover {
-  background-color: #8BC673;
+  background-color: #8bc673;
 }
 
 span.MuiStepLabel-label.MuiStepLabel-active {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 span.MuiStepLabel-label.MuiStepLabel-completed {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 p.MuiTypography-body1 {
-  color: #E0E0E0;
+  color: #e0e0e0;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 span.MuiStepLabel-label {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 span.MuiButton-label {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 button.MuiButton-root {
@@ -114,13 +114,13 @@ button.MuiButton-root {
 }
 
 h2.MuiTypography-h6 {
-  color: #8BC673;
+  color: #8bc673;
 }
 
 svg.MuiSvgIcon-root {
-  color: #7F184C;
+  color: #7f184c;
 }
 
 h6.MuiTypography-colorInherit {
-  color: #7F184C;
+  color: #7f184c;
 }

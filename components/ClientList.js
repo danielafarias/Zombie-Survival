@@ -10,22 +10,20 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Divider
+  Divider,
 } from "@material-ui/core";
-import CloseIcon from '@material-ui/icons/Close';
-import FaceIcon from '@material-ui/icons/Face';
-
+import CloseIcon from "@material-ui/icons/Close";
+import FaceIcon from "@material-ui/icons/Face";
 
 export default function Clients(props) {
-  
-    const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
 
-    const handleClickOpen = () => {
-      setOpen(true);
-    };
-    const handleClose = () => {
-      setOpen(false);
-    };
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <>
@@ -39,7 +37,7 @@ export default function Clients(props) {
         </ListItem>
         <Divider />
       </List>
-      
+
       <Dialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
@@ -47,52 +45,34 @@ export default function Clients(props) {
       >
         <DialogTitle id="form-dialog-title">{props.name}</DialogTitle>
         <DialogContent dividers>
-        <Typography > Name: </Typography>
+          <Typography> Name: </Typography>
           <Typography gutterBottom>
-            {props.name + ' ' + props.lastname}
-            
-          </Typography>
-            <br />
-        <Typography > Email: </Typography>
-          <Typography gutterBottom>
-            {props.email}
-          </Typography>
-            <br />
-          <Typography > Number: </Typography>
-          <Typography gutterBottom>
-            {props.number}
+            {props.name + " " + props.lastname}
           </Typography>
           <br />
-          <Typography > Zip Code: </Typography>
-          <Typography gutterBottom>
-            {props.zip}
-          </Typography>
+          <Typography> Email: </Typography>
+          <Typography gutterBottom>{props.email}</Typography>
           <br />
-          <Typography > Address1: </Typography>
-          <Typography gutterBottom>
-            {props.address1}
-          </Typography>
+          <Typography> Number: </Typography>
+          <Typography gutterBottom>{props.number}</Typography>
+          <br />
+          <Typography> Zip Code: </Typography>
+          <Typography gutterBottom>{props.zip}</Typography>
+          <br />
+          <Typography> Address1: </Typography>
+          <Typography gutterBottom>{props.address1}</Typography>
           <br />
           <Typography>Address2: </Typography>
-          <Typography gutterBottom>
-            {props.address2}
-          </Typography>
+          <Typography gutterBottom>{props.address2}</Typography>
           <br />
-          <Typography > CPF: </Typography>
-          <Typography gutterBottom>
-            {props.CPF}
-          </Typography>
+          <Typography> CPF: </Typography>
+          <Typography gutterBottom>{props.CPF}</Typography>
           <br />
-          <Typography > Birthday: </Typography>
-          <Typography gutterBottom>
-            {props.birthday}
-          </Typography>
+          <Typography> Birthday: </Typography>
+          <Typography gutterBottom>{props.birthday}</Typography>
           <br />
-          <Typography > Income: </Typography>
-          <Typography gutterBottom>
-            {props.income}
-          </Typography>
-          
+          <Typography> Income: </Typography>
+          <Typography gutterBottom>{props.income}</Typography>
         </DialogContent>
         <DialogActions>
           <IconButton autoFocus onClick={handleClose} color="primary">
